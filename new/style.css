@@ -1,0 +1,8 @@
+h1{font-size: 25px;color: rgb(189, 4, 146);background-color: rgb(75, 3, 3);}
+p{color:hsl(83, 98%, 16%);font-size: 16px;}
+h2{color:#02245c;font: size 20px;}
+.h1-color{
+    color: red;
+    background-color: rgba(75, 3, 3,0.5);
+}
+.p-color{ color:hsla(83, 98%, 16%,0.4);}
