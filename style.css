@@ -1,0 +1,18 @@
+.main{
+    height: 100vh;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+}
+.main div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: cadetblue solid 2px;
+}
+.master2{
+    align-self: end;
+}
+.master3{
+    align-self: center;
+}

@@ -21,6 +21,8 @@ font-size: 40px;}
 
 .i2{
     padding-left: 20px;
+    width: 70%;
+    margin: 250px;
    
 }
 
@@ -39,3 +41,11 @@ font-size: 40px;}
 .H-3{
   padding-top: 20px;  
 }
+
+.i3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+    .but{background-color: green;}

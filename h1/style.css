@@ -1,0 +1,27 @@
+h1{
+    background-color: violet;
+    color: white;
+    
+}
+.second div{
+    background-color: aqua;
+    
+    
+}
+.div1{
+    height: 400px;
+    width: 550px;
+}
+.div2{
+    height: 400px;
+    width: 550px;
+
+}
+.div3{
+    height: 400px;
+    width: 550px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
