@@ -1,18 +1,19 @@
 .main{
     height: 100vh;
     background-color: darkgreen;
-    display: flex;
-    justify-content: space-around;
+    display:grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
 }
 .main div{
-    height: 100px;
-    width: 100px;
     background-color: red;
-    border: cadetblue solid 2px;
+    
+    border: 2px black solid;
 }
-.master2{
-    align-self: end;
-}
-.master3{
-    align-self: center;
-}
+/* .abc{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
