@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       ::marker{
-        color: chartreuse;
-       }
+     .main{
+        height: 100px;
+        width: 100px;
+        animation-name: master;
+        animation-duration: 3s;
+        background-color: red;
+        animation-iteration-count:infinite ;
+        position: relative;
+        animation-delay: -2s;
+        animation-direction: reverse;
+        animation-timing-function: ;
+     }
+     @keyframes master{
+        0%{
+            background-color: red; 
+
+        }
+        25%{background-color: blue; left: 100px;}
+        50%{background-color: violet; left: 100px; top: 100px;}
+        75%{background-color: yellow; top:100px;}
+        100%{
+            background-color: green;
+        }
+     }
     </style>
     
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam itaque ex, consequuntur pariatur aliquid praesentium suscipit vel quae numquam est, adipisci vero, maiores a iste ab quisquam autem uptates  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nulla id doloribus, aut ipsa ut earum placeat eius debitis fugit minus optio doloremque reprehenderit odio delectus accusamus quis repudiandae iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum mollitia, qui, perspiciatis accusamus unde numquam sunt rem repellat nihil quia sed voluptatem exercitationem officiis repellendus iure labore vitae temporibus?</p>
-    <ol>
-        <li>hh</li>
-        <li>jj</li>
-    </ol>
+    <div class="main"></div>
 </body>
 </html>
